@@ -1,0 +1,55 @@
+#logo {
+    position: absolute;
+    top: 50px;
+    left: 150px;
+}
+
+#logo a {
+    text-decoration: none;
+}
+
+#logo p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    transition: .2s;
+    color: #000;
+}
+
+#logo p:hover {
+    transform: scale(1.10);
+}
+
+main {
+    padding-top: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button {
+    font-family: "Poppins";
+    font-weight: 500;
+    width: 80px;
+    height: 30px;
+    border-radius: 15px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#turnOn {
+    background-color: green;
+}
+
+#turnOff {
+    background-color: red;   
+}
+
+#turnOn:hover {
+    background-color: rgba(0, 128, 0, 0.822);
+}
+
+#turnOff:hover {
+    background-color: rgba(128, 0, 0, 0.822);
+}
